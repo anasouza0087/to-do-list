@@ -39,7 +39,6 @@
 }
 
 .right {
-    /*background-color: yellow;*/
     width: 60%;
 }
 
@@ -48,13 +47,25 @@
     width: fit-content;
     height: fit-content;
     margin: 0 auto;
-    padding-top: 20%;
+    padding-top: 13%;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 600;
+}
+
+.container-login label {
+    padding-left: 16px;
+    padding-top: 12px;
+    color: #320C36;
 }
 
 .container-login input,
 button {
     margin-top: 8px;
     margin-bottom: 8px;
+}
+
+.container-login input {
+    padding-top: 16px;
 }
 
 .container-login button {
@@ -64,6 +75,12 @@ button {
     border: none;
     border-radius: 12px;
     outline: none;
+    margin-top: 20px;
+    margin-bottom: 16px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 16px;
 }
 
 .container-login input {
@@ -75,4 +92,5 @@ button {
 .container-login p,
 h2 {
     text-align: center;
+    color: #320C36;
 }
