@@ -1,31 +1,35 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="PT-BR">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TODO List</title>
-    <link rel="stylesheet" href="./style.css">
+    <title>Sign IN | TO-DO List</title>
+    <link rel="stylesheet" href="auth.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
-    <header class="cabecalho">
-        <h3>Cadastro de tarefas</h3>
-    </header>
-    <div class="busca">
-        <input type="text" name="inclusão" id="tarefa" value="Insira sua tarefa">
-        <button type="submit" id="cadastro">Cadastrar</button>
+    <div class="element-position">
+        <div class="left">
+            <h1>TO-DO List</h1>
+            <p>What made you want to look up to-do list? Please tell us where you read or heard it. Aliquam eget vehicula libero. Integer euismod felis ac arcu maximus dictum.
+        </div>
+        <div class="right">
+            <div class="container-login">
+                <h2><i class="fa fa-hand-o-down" aria-hidden="true"></i> Sign in </h2>
+                <button type="submit">Sign in with Google <i class="fa fa-google" aria-hidden="true"></i></button>
+                <p>OR</p>
+                <label for="">E-mail <i class="fa fa-envelope" aria-hidden="true"></i></label>
+                <input type="email" name="E-Mail" id="email">
+                <label for="">Password <i class="fa fa-unlock fa-1x" aria-hidden="true"></i></label>
+                <input type="password" name="" id="password">
+                <a href="todo.html"><button type="submit">Sign In <i class="fa fa-sign-in" aria-hidden="true"></i></button></a>
+            </div>
+        </div>
     </div>
-    <div class="lista-itens">
-        <h2>Tarefas Cadastradas</h2>
-        <ol>
-        </ol>
-    </div>
-    <script src="./script.js"></script>
 </body>
 
 </html>
